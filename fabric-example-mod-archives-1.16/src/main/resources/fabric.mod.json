@@ -17,11 +17,12 @@
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
+    "entrypoints": {
+    "client": [
       "net.fabricmc.example.ExampleMod"
     ]
   },
+
   "mixins": [
     "modid.mixins.json"
   ],
